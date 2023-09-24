@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>check console</p>
+    <script>
+        function reverseNumber(x) {
+  
+  const numStr = x.toString();
+
+  
+  const reversedStr = numStr.split('').reverse().join('');
+
+  
+  const reversedNum = parseInt(reversedStr, 10);
+
+  return reversedNum;
+}
+
+
+const x = 32243;
+const reversed = reverseNumber(x);
+console.log(reversed); 
+
+    </script>
+    
+</body>
+</html>
